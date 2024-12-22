@@ -48,6 +48,8 @@ public class PropertyController {
     }
 
 
+
+
     @DeleteMapping("/DeleteByCityIdFindById/cityId/{CityIdNo}")
     public ResponseEntity<String> deleteByCityIdFindById(@PathVariable Long CityIdNo)
     {
